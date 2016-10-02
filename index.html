@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Form elements — GOV.UK elements</title>
+
+    <!--[if gt IE 8]><!--><link href="public/stylesheets/govuk-template.css" media="screen" rel="stylesheet" /><!--<![endif]-->
+    <!--[if IE 6]><link href="public/stylesheets/govuk-template-ie6.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 7]><link href="public/stylesheets/govuk-template-ie7.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 8]><link href="public/stylesheets/govuk-template-ie8.css" media="screen" rel="stylesheet" /><![endif]-->
+    <link href="public/stylesheets/govuk-template-print.css?0.18.2" media="print" rel="stylesheet" />
+
+    <!--[if IE 8]><link href="public/stylesheets/fonts-ie8.css" media="all" rel="stylesheet" /><![endif]-->
+    <!--[if gte IE 9]><!--><link href="public/stylesheets/fonts.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if lt IE 9]><script src="public/javascripts/ie.js"></script><![endif]-->
+
+    <link rel="shortcut icon" href="public/images/favicon.png" type="image/x-icon" />
+    <link rel="mask-icon" href="public/images/gov.uk_logotype_crown.svg" color="#0b0c0c">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="public/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="public/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="public/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" href="public/images/apple-touch-icon-60x60.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="public/images/opengraph-image.png">
+
+    
+  <!--[if gt IE 8]><!--><link href="public/stylesheets/elements-page.css"  rel="stylesheet" type="text/css"><!--<![endif]-->
+<!--[if IE 6]><link href="public/stylesheets/elements-page-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 7]><link href="public/stylesheets/elements-page-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 8]><link href="public/stylesheets/elements-page-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+  <link href="public/stylesheets/prism.css" media="screen" rel="stylesheet">
+
+  <script src="public/javascripts/vendor/prism.js"></script>
+
+  </head>
+
+  <body class="">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+
+
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+    <header role="banner" id="global-header" class="with-proposition">
+        <div class="header-wrapper">
+            <div class="header-global">
+                <img src="/public/images/logo.png" />
+            </div>
+        </div>
+    </header>
+
+    
+
+<main id="content" role="main" tabindex="-1">
+
+<div class="grid-row">
+    <div class="column-two-thirds">
+        <h1 class="heading-large">
+            Enter your details
+        </h1>
+
+        <form action="/" method="post" class="form">
+
+            
+        <div class="form-item-wrapper">
+        <div class="form-group">
+            <label class="form-label-bold" for="name">
+            Name
+            </label>
+            
+            <input type="text" id="name" name="name" value="" class="form-control ">
+        </div>
+        </div>
+
+
+            
+        <div class="form-item-wrapper">
+        <fieldset>
+            <lable class="form-label-bold">
+            Date of birth
+            <span class="form-hint">For example 31 7 1961</span>
+            </label>
+        
+            
+            <div class="inline-form-groups">
+            <div class="form-group">
+                <label class="form-label" for="dob-day">Day</label>
+                <input class="form-control form-control-2-chars" id="dob-day" type="number" min="0" max="31">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="dob-month">Month</label>
+                <input class="form-control form-control-2-chars" id="dob-month" type="number" min="0" max="12">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="dob-year">Year</label>
+                <input class="form-control form-control-4-chars" id="dob-year" type="number" min="0">
+            </div>
+            </div>
+        </fieldset>
+        </div>
+
+
+            <div class="form-item-wrapper">
+        <div class="form-group">
+        <label class="form-label-bold" for="gp-practice-search">
+            NHS Number
+            <span class="form-hint">Enter your 10 digit NHS number</span>
+        </label>
+        <input type="text" id="gp-practice-search" name="gp-practice-search" class="form-control">
+        </div>
+        </div>
+
+
+            
+        <div class="form-item-wrapper">
+        <div class="form-group">
+            
+            <a class="button button-start" href="preference.html" role="button">Change Preferences</a>
+            
+        </div>
+        </div>
+
+
+        </form>
+    </div>
+</div>
+</main><!-- / #content -->
+
+
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="public/javascripts/govuk-template.js"></script>
+
+    
+  <script src="public/javascripts/vendor/jquery-1.11.0.min.js"></script>
+
+<!-- govuk_frontend_toolkit js -->
+<script src="public/javascripts/vendor/polyfills/bind.js"></script>
+<script src="public/javascripts/govuk/selection-buttons.js"></script>
+<script src="public/javascripts/govuk/shim-links-with-button-role.js"></script>
+<script src="public/javascripts/govuk/show-hide-content.js"></script>
+
+<!-- govuk_elements js -->
+<script src="public/javascripts/govuk/details.polyfill.js"></script>
+<script src="public/javascripts/application.js"></script>
+
+
+
+    
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  </body>
+</html>

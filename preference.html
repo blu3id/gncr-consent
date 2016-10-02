@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Form elements — GOV.UK elements</title>
+
+    <!--[if gt IE 8]><!--><link href="public/stylesheets/govuk-template.css" media="screen" rel="stylesheet" /><!--<![endif]-->
+    <!--[if IE 6]><link href="public/stylesheets/govuk-template-ie6.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 7]><link href="public/stylesheets/govuk-template-ie7.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 8]><link href="public/stylesheets/govuk-template-ie8.css" media="screen" rel="stylesheet" /><![endif]-->
+    <link href="public/stylesheets/govuk-template-print.css?0.18.2" media="print" rel="stylesheet" />
+
+    <!--[if IE 8]><link href="public/stylesheets/fonts-ie8.css" media="all" rel="stylesheet" /><![endif]-->
+    <!--[if gte IE 9]><!--><link href="public/stylesheets/fonts.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if lt IE 9]><script src="public/javascripts/ie.js"></script><![endif]-->
+
+    <link rel="shortcut icon" href="public/images/favicon.png" type="image/x-icon" />
+    <link rel="mask-icon" href="public/images/gov.uk_logotype_crown.svg" color="#0b0c0c">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="public/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="public/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="public/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" href="public/images/apple-touch-icon-60x60.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="public/images/opengraph-image.png">
+
+    
+  <!--[if gt IE 8]><!--><link href="public/stylesheets/elements-page.css"  rel="stylesheet" type="text/css"><!--<![endif]-->
+<!--[if IE 6]><link href="public/stylesheets/elements-page-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 7]><link href="public/stylesheets/elements-page-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 8]><link href="public/stylesheets/elements-page-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+  <link href="public/stylesheets/prism.css" media="screen" rel="stylesheet">
+
+  <script src="public/javascripts/vendor/prism.js"></script>
+
+  </head>
+
+  <body class="">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+
+
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+    <header role="banner" id="global-header" class="with-proposition">
+        <div class="header-wrapper">
+            <div class="header-global">
+                <img src="/public/images/logo.png" />
+            </div>
+        </div>
+    </header>
+
+    
+
+<main id="content" role="main" tabindex="-1">
+
+<div class="grid-row">
+    <div class="column-two-thirds">
+
+<h1 class="heading-large">What do you want your information to be shared for?</h1>
+<form>
+    <div class="form-group">
+        <fieldset>
+            <legend class="visuallyhidden">How much information fo you want to share?</legend>
+            <label class="block-label selection-button-radio green" for="radio-inline-3" data-target="inline-3">
+                <input id="radio-inline-3" type="radio" name="radio-inline-group" value="Yes">
+                <span class="heading-small">For research by the GNCR</span><br>
+                Your health information will be shared with researchers that have been reviewed by the GNCR pannel.
+            </label>
+
+<div class="js-hidden inline-3" id="inline-3">
+    <h1 class="heading-small">
+    How do you want to be contacted?
+    </h1>
+    <form>
+    <div class="form-group">
+        <fieldset>
+        <legend class="visuallyhidden">How do you want to be contacted?</legend>
+        <label class="block-label" data-target="contact-by-email" for="example-contact-by-email">
+            <input id="example-contact-by-email" type="radio" name="radio-contact-group" value="Yes">
+            Email
+        </label>
+        <div class="panel panel-border-narrow js-hidden" id="contact-by-email">
+            <label class="form-label" for="contact-email">Email address</label>
+            <input class="form-control" name="contact-email" type="text" id="contact-email">
+        </div>
+
+        <label class="block-label" data-target="contact-by-phone" for="example-contact-by-phone">
+            <input id="example-contact-by-phone" type="radio" name="radio-contact-group" value="No">
+            Phone
+        </label>
+        <div class="panel panel-border-narrow js-hidden" id="contact-by-phone">
+            <label class="form-label" for="contact-phone">Phone number</label>
+            <input class="form-control" name="contact-phone" type="text" id="contact-phone">
+        </div>
+
+        <label class="block-label" data-target="contact-by-text" for="example-contact-by-text">
+            <input id="example-contact-by-text" type="radio" name="radio-contact-group" value="No">
+            Text message
+        </label>
+        <div class="panel panel-border-narrow js-hidden" id="contact-by-text">
+            <label class="form-label" for="contact-text-message">Mobile phone number</label>
+            <input class="form-control" name="contact-text-message" type="text" id="contact-text-message">
+        </div>
+        </fieldset>
+    </div>
+    </form>
+</div>
+
+            <label class="block-label selection-button-radio blue" for="radio-inline-1" data-target="inline-2">
+                <input id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
+                <span class="heading-small">For care</span><br>
+                Teams carring for you within the GNCR area will have easy access to your health information when needed to provide safe, effective care.
+                <details>
+                    <summary><span class="summary">Details</span></summary>
+                    <div>
+                        <p>Whenever you go to see your doctor or any other professional involved in your NHS care, that is ‘personal care’. Examples include seeing your GP, an appointment in an outpatient clinic or an emergency where an ambulance is called or you are admitted to hospital. Find out more about <a href="">NHS services</a>. These services may be provided in different buildings by different teams and information sharing for personal care is about health care professionals being able to access your health-related information to make decisions with you, or in your best interests, about your care. No decision about me, without me (or my health information). <a href="">Information that might be included and what and excluded</a>.</p>
+                        <p>In everyday life, many of us have loyalty cards and social media accounts because we are happy to share information with people we choose to share with. We can choose who we join up with on line and when we use our cards. We are in control. Our health information has traditionally been locked in paper records and more recently in computer systems which hasn’t been shared between different members of our NHS care team who work in different settings.</p>
+                        <p>Information sharing means enabling a better conversation between me, my GP and the other people involved in my care. I am in control.</p>
+                    </div>
+                </details>
+            </label>
+            <label class="block-label selection-button-radio red" for="radio-inline-2" data-target="inline-1">
+                <input id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
+                <span class="heading-small">I don't want to share*</span><br>
+                You will have to tell each team carring for you about your health needs and any important or relevant information.
+            </label>
+            <label class="block-label selection-button-radio" for="radio-inline-4" data-target="inline-4">
+                <input id="radio-inline-4" type="radio" name="radio-inline-group" value="Yes">
+                <span class="heading-small">For all research purposes</span><br>
+                You are happy for your information to be shared with researchers and industry both nationaly and internationaly.
+            </label>
+            <br><br>
+        </fieldset>
+    </div>
+</form>
+</div>
+
+<div class="column-one-third">
+    <div class="example js-hidden" id="inline-2">
+        <ul class="list list-bullet">
+            <li>In an emergency, an ambulance crew will know what medications you have been prescribed and any other significant conditions you may have.</li>
+            <li>If you forget the names of your medications the team carring for you will be able to see a list of what your GP has prescribed.</li>
+        </ul>
+    </div>
+    <div class="example js-hidden red" id="inline-1">
+        <div class="notice">
+        <i class="icon icon-important">
+            <span class="visuallyhidden">Notice</span>
+        </i>
+        <strong class="bold-small">
+            Your care could be adversely affected by refusing to share information this means that:
+        </strong>
+        </div>
+        <br>
+        <ul class="list list-bullet">
+            <li>In an emergency, an ambulance service crew would <strong class="bold-small">NOT</strong> know that for example you have epilepsy, so valuable time could be lost in diagnosing what is wrong with you.</li>
+            <li>For example the district nurse who looks after your injections or wound dressings would not have access to what you are allergic to.</li>
+        </ul>
+    </div>
+
+    <div class="example js-hidden inline-3" id="inline-32">
+        <p>Aggregated data from The Great North Care Record systems has the potential, subject to the appropriate legal, ethical and information sharing agreements, to offer researchers a holistic view of a population’s health and social care needs and behaviours. Research areas could include:</p>
+        <ul class="list list-bullet">
+            <li>Public health insight: prevalence</li>
+            <li>Impact modelling: innovation, uptake and outcomes</li>
+            <li>Policy research into whole-system changes, and the outcomes of multiple interacting changes</li>
+            <li>Pharmaceutical Research</li>
+        </ul>
+        <p>We can make the North East the most attractive place in the world to do research by producing a consent-rich research environment.<p>
+    </div>
+
+
+
+</div>
+</div>
+
+<div class="grid-row">
+    <div class="column-two-thirds">
+        <input class="button" type="submit" value="Save">
+    </div>
+</div>
+
+</main><!-- / #content -->
+
+
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="public/javascripts/govuk-template.js"></script>
+
+    
+  <script src="public/javascripts/vendor/jquery-1.11.0.min.js"></script>
+
+<!-- govuk_frontend_toolkit js -->
+<script src="public/javascripts/vendor/polyfills/bind.js"></script>
+<script src="public/javascripts/govuk/selection-buttons.js"></script>
+<script src="public/javascripts/govuk/shim-links-with-button-role.js"></script>
+<script src="public/javascripts/govuk/show-hide-content.js"></script>
+
+<!-- govuk_elements js -->
+<script src="public/javascripts/govuk/details.polyfill.js"></script>
+<script src="public/javascripts/application.js"></script>
+
+
+
+    
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  </body>
+</html>
