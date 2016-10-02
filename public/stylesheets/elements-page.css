@@ -2505,6 +2505,11 @@ input[type=number] {
 .green {
   border: 2px solid #006435;
   background: #85994b;
+  color: #fff;
+}
+
+.selected.green{
+  color: #000;
 }
 
 .selected .green{
